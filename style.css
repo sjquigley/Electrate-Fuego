@@ -7,7 +7,7 @@ body, html {
 .hero-image {
   /* This is your opening image. You will need to change feet.jpg to something of your choice*/
   
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("feet.jpg");
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("sunset.jpg");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -24,14 +24,14 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: goldenrod;
   font-size: 250%;
 }
 
 /* This is what controls that cool parallax scrolling effect. Change the image "feet.jpg" below to your image.*/
 /*You can always add more parlax assets on your web document, just follow the directions at the bottom of the index.html.*/
 .parallax-1 { 
-  background-image: url("feet.jpg");
+  background-image: url("bball2.jpg");
 
   /* Set a specific height */
   height: 500px; 
@@ -78,6 +78,18 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("
 
 }
 
+.centertexter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.iframe-video{
+  text-align: center;
+  position: relative;
+  left: 0px;
+  padding: 100px;}
 
 /*The following .css is responsible for your photo grid .row, .column, .column img and @ media all work together to create your responsive image displays. Change the images on index.html. Remember, the images need to be in your project file folder */
 
@@ -105,6 +117,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("
   .column {
     flex: 50%;
     max-width: 50%;
+  }
 }
 
 
